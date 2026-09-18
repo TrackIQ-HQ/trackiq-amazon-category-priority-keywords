@@ -1,0 +1,22 @@
+{
+  "name": "trackiq-amazon-category-priority-keywords",
+  "title": "TrackIQ: Amazon Category Priority Keywords",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Groups an Amazon catalogue into product categories, then picks the 25 search terms per category worth tracking organic rank on \u2014 each with weekly volume, estimated monthly revenue, impression share, and whether the rank tracker already covers it.",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": ["trackiq"],
+    "tools": ["list_marketplaces", "get_search_query_performance", "get_product_performance", "get_product_categories_performance", "get_keyword_rank"],
+    "filesystem": false,
+    "network": false
+  },
+  "delivery": {
+    "methods": ["in-chat", "file", "slack", "n8n", "email"],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. file needs a filesystem, n8n needs network, slack and email need their tool connected. Outward sends confirm first."
+  },
+  "fallback": "Works from a Brand Analytics Search Query Performance export plus revenue and orders by ASIN when the TrackIQ MCP is not connected. Everything except the rank-tracker column is reproducible.",
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-category-priority-keywords",
+  "license": "MIT"
+}

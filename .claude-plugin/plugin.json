@@ -1,0 +1,10 @@
+{
+  "name": "trackiq-amazon-category-priority-keywords",
+  "version": "1.0.0",
+  "description": "TrackIQ: Amazon Category Priority Keywords \u2014 an Agent Skill that turns Search Query Performance into a priced, per-category keyword tracking list.",
+  "author": { "name": "TrackIQ", "url": "https://trackiq.com" },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-category-priority-keywords",
+  "repository": "https://github.com/TrackIQ-HQ/trackiq-amazon-category-priority-keywords",
+  "license": "MIT",
+  "keywords": ["amazon", "amazon-seller", "amazon-ads", "sqp", "search-query-performance", "keyword-research", "organic-rank", "rank-tracking", "seo", "claude-skill", "agent-skills", "trackiq"]
+}
