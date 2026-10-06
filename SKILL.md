@@ -130,7 +130,7 @@ something changed in the catalogue or the category rules.
 
 ## Version
 
-`trackiq-amazon-category-priority-keywords` v1.0.0 (2026-09-17).
+`trackiq-amazon-category-priority-keywords` v1.0.1 (2026-10-06).
 
 If the user asks whether this skill is current, fetch
 `https://trackiq.com/skills/registry.json`, compare the `version` field for
